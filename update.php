@@ -38,6 +38,7 @@ $rows = $result->fetch();
 
 
                         <input type="hidden" name="id" id="id" value="<?= $rows['id'];?>">
+                        <input type="hidden" name="fotoOriginal" id="fotoOriginal" value="<?= $rows['caminhoFoto'];?>">
 
                         <!-- Text input-->
                         <div class="form-group">
